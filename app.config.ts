@@ -18,6 +18,7 @@ const config: ExpoConfig = {
       backgroundImage: './assets/images/android-icon-background.png',
       monochromeImage: './assets/images/android-icon-monochrome.png',
     },
+    package: 'io.upleveled.expo_example_winter_2026_eu',
     predictiveBackGestureEnabled: false,
   },
   web: {
@@ -29,7 +30,7 @@ const config: ExpoConfig = {
     [
       'expo-router',
       {
-        origin: 'https://your-deployed-website.vercel.app',
+        origin: 'https://expo-example-fall-2026-eu.vercel.app',
       },
     ],
     [
